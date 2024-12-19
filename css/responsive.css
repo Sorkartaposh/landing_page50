@@ -1,0 +1,345 @@
+/*
+====================================
+large Screen - Others
+====================================
+*/
+
+@media screen and (min-width: 1920px) {
+    .hero_content {
+        text-align: right;
+        padding-top: 200px;
+        padding-bottom: 300px;
+    }
+}
+
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+
+@media screen and (min-width: 1201px) and (max-width: 1919px) {
+    .hero_content {
+        text-align: right;
+        padding-top: 200px;
+        padding-bottom: 300px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .reimagine_content_number.border_x {
+        border: 0;
+    }
+    .reimagine_content_desc {
+        text-align: center;
+        margin-bottom: 50px;
+        padding: 0;
+    }
+    .reimagine_content {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .philanthropist_content img.img_overlay1 {
+        width: 100%;
+        max-width: 300px;
+        bottom: 0;
+        right: 0;
+    }
+    .philanthropist_content {
+        width: 100%;
+        max-width: 400px;
+        padding-bottom: 30px;
+    }
+    .philanthropist_content ul {
+        gap: 10px;
+        margin-top: 30px;
+    }
+    .testimonial_content h2 {
+        padding: 0 50px;
+        font-size: 25px;
+    }
+    .testimonial_content img.overlay1 {
+        max-width: 80px;
+        left: 20px;
+    }
+    .testimonial_content img.overlay2 {
+        max-width: 80px;
+        right: 20px;
+    }
+    .sp_card_wrapper {
+        width: 100%;
+        max-width: 400px;
+    }
+    .social_profile_content {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+    .hero_area {
+        background-position: right top;
+    }
+    .hero_content ul {
+        right: 5px;
+    }
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .hero_content {
+        text-align: right;
+        padding-top: 120px;
+        padding-bottom: 170px;
+    }
+    .hero_content ul li a img {
+        max-width: 100px;
+    }
+    .hero_content>h1 {
+        font-size: 45px;
+    }
+    .hero_content>h6 {
+        font-size: 30px;
+    }
+    .reimagine_content_number.border_x {
+        border: 0;
+    }
+    .reimagine_content_desc {
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 10px;
+        padding: 0;
+    }
+    .reimagine_content {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .philanthropist_content img.img_overlay1 {
+        width: 100%;
+        max-width: 300px;
+        position: static;
+    }
+    .philanthropist_content h2 {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+    .philanthropist_content {
+        width: 100%;
+        max-width: 400px;
+        padding-bottom: 30px;
+    }
+    .philanthropist_content ul {
+        gap: 10px;
+        margin-top: 30px;
+    }
+    .testimonial_content h2 {
+        padding: 0 50px;
+        font-size: 20px;
+    }
+    .testimonial_content {
+        padding: 20px 0;
+    }
+    .testimonial_content img.overlay1 {
+        max-width: 70px;
+        left: 0;
+    }
+    .testimonial_content img.overlay2 {
+        max-width: 70px;
+        right: 0;
+    }
+    .sp_card_wrapper {
+        width: 100%;
+        max-width: 400px;
+    }
+    .social_profile_content {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+    .hero_area {
+        background-position: right top;
+    }
+    .reimagine_header h2 {
+        font-size: 35px;
+    }
+    .reimagine_content_number h3 {
+        font-size: 40px;
+    }
+    .reimagine_area {
+        padding: 40px 0;
+    }
+    .social_profile_content h2 {
+        font-size: 25px;
+    }
+    .social_profile_area {
+        background-color: #ECECEC;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .footer_content h2 {
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+    .footer_content ul li a {
+        font-size: 25px;
+    }
+    .footer_copyright ul {
+        flex-wrap: wrap;
+        gap: 5px;
+        padding-bottom: 0;
+    }
+    .footer_content {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+
+@media screen and (max-width: 576px) {
+    .hero_content {
+        text-align: right;
+        padding-top: 120px;
+        padding-bottom: 170px;
+    }
+    .hero_content ul li a img {
+        max-width: 100px;
+    }
+    .hero_content>h1 {
+        font-size: 30px;
+    }
+    .hero_content>h6 {
+        font-size: 20px;
+    }
+    .hero_content>a {
+        font-size: 14px;
+        gap: 10px;
+        width: 100%;
+        max-width: 170px;
+        min-height: 40px;
+    }
+    .hero_content>a img {
+        width: 15px;
+    }
+    .reimagine_content_number.border_x {
+        border: 0;
+    }
+    .reimagine_content_desc {
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 10px;
+        padding: 0;
+    }
+    .reimagine_content {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .philanthropist_content img.img_overlay1 {
+        width: 100%;
+        max-width: 300px;
+        position: static;
+    }
+    .philanthropist_content h2 {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    .philanthropist_content p {
+        font-size: 14px;
+    }
+    .philanthropist_content {
+        width: 100%;
+        max-width: 400px;
+        padding-bottom: 30px;
+    }
+    .philanthropist_content ul {
+        gap: 10px;
+        margin-top: 30px;
+    }
+    .philanthropist_content ul li a img {
+        max-width: 90px;
+    }
+    .testimonial_content h2 {
+        padding: 0 35px;
+        font-size: 18px;
+    }
+    .testimonial_content h2 br {
+        display: none;
+    }
+    .testimonial_content {
+        padding: 20px 0;
+    }
+    .testimonial_content img.overlay1 {
+        max-width: 50px;
+        left: 0;
+    }
+    .testimonial_content img.overlay2 {
+        max-width: 50px;
+        right: 0;
+    }
+    .sp_card_wrapper {
+        width: 100%;
+        max-width: 400px;
+    }
+    .social_profile_content {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+    .hero_area {
+        background-position: 50% top;
+    }
+    .reimagine_header h2 {
+        font-size: 25px;
+    }
+    .reimagine_content_number h3 {
+        font-size: 25px;
+    }
+    .reimagine_content_number span {
+        font-size: 16px;
+    }
+    .reimagine_area {
+        padding: 40px 0;
+    }
+    .social_profile_content h2 {
+        font-size: 25px;
+    }
+    .social_profile_area {
+        background-color: #ECECEC;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .footer_content h2 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .footer_content ul li a {
+        font-size: 18px;
+    }
+    .footer_copyright ul {
+        flex-wrap: wrap;
+        gap: 5px;
+        padding-bottom: 10px;
+    }
+    .footer_content {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .social_profile_content p {
+        font-size: 14px;
+    }
+}
